@@ -1,6 +1,7 @@
 import pkg_resources
 import json
 import random
+from colorama import Fore, Style
 
 # returns a list of questions
 def load_questions():
@@ -19,13 +20,13 @@ def run():
     for o in question["options"]:
         print(f"{i}: {o}")
         i += 1
-    answer_i = i + 1
+    answer_i = i
     print(f"{answer_i}: {question['answer']}")
 
     inp = int(input(">"))
     if inp == answer_i:
-        print("correct!")
-    elif inp < 1 or inp > len(question["options"]) + 1:
-        print("wrong!")
+        print(f"{Fore.GREEN}correct!{Style.RESET_ALL}")
+    elif inp > 0 and inp <= len(question["options"]) + 1:
+        print(f"{Fore.RED}wrong!{Style.RESET_ALL}")
     else:
-        print("bad number")
+        print(f"{Fore.RED}bad number{Style.RESET_ALL}")
