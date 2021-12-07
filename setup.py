@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name = "quiz",
-    version = "0.1.0",
-    description = "TODO",
+    version = "1.0.0",
+    description = "Simple terminal quiz game",
     author = "JeffTheK",
     url = "https://github.com/JeffTheK/quiz",
     packages = ["quiz"],
@@ -17,4 +17,5 @@ setup(
             "data/**"
         ]
     }
+
 )
