@@ -1,13 +1,13 @@
 # quiz
 
-TODO
+Simple terminal quiz game
 
 ## Installation
 
 Run this command in the terminal:
 
 ```sh
-pip install stun
+pip install quiz
 ```
 
 ## Usage
