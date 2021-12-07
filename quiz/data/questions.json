@@ -1,0 +1,21 @@
+[
+    {
+        "question_text": "In which European city can you find the home of Anne Frank?",
+        "answer": "Amsterdam",
+        "options": [
+            "Berlin",
+            "Paris",
+            "Hamburg"
+        ]
+    },
+    {
+        "question_text": "How many children did Queen Victoria have?",
+        "answer": "Nine",
+        "options": [
+            "Nine",
+            "Five",
+            "Four",
+            "Three"
+        ]
+    }
+]

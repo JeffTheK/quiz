@@ -11,5 +11,10 @@ setup(
         'console_scripts': [
             'quiz = quiz.main:run'
         ]
+    },
+    package_data = {
+        "quiz": [
+            "data/**"
+        ]
     }
 )
