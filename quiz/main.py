@@ -1,11 +1,6 @@
 import pkg_resources
 import json
-
-class Question:
-    def __init__(self, question_text, options, answer):
-        self.question_text = question_text
-        self.options = options
-        self.answer = answer
+import random
 
 # returns a list of questions
 def load_questions():
@@ -17,5 +12,20 @@ def load_questions():
     return questions
     
 def run():
-    quesstions = load_questions()
-    print("hello world")
+    questions = load_questions()
+    question = questions[random.randint(0, len(questions) - 1)]
+    print(question["question_text"])
+    i = 1
+    for o in question["options"]:
+        print(f"{i}: {o}")
+        i += 1
+    answer_i = i + 1
+    print(f"{answer_i}: {question['answer']}")
+
+    inp = int(input(">"))
+    if inp == answer_i:
+        print("correct!")
+    elif inp < 1 or inp > len(question["options"]) + 1:
+        print("wrong!")
+    else:
+        print("bad number")
