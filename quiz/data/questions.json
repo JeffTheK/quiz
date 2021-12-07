@@ -17,5 +17,25 @@
             "Four",
             "Three"
         ]
+    },
+    {
+        "question_text": "What is the noisiest city in the world?",
+        "answer": "Hong Kong",
+        "options": [
+            "New York",
+            "Beijing",
+            "Paris",
+            "Cairo"
+        ]
+    },
+    {
+        "question_text": "What is the largest state of the United States?",
+        "answer": "Alaska",
+        "options": [
+            "Texas",
+            "California",
+            "Montana",
+            "Arizona"
+        ]
     }
 ]
