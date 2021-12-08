@@ -4,23 +4,33 @@ Simple terminal quiz game
 
 ## Installation
 
-Run this command in the terminal:
+Clone the repo:
 
 ```sh
-pip install quiz
+git clone https://github.com/JeffTheK/quiz
+```
+
+Then run `make install` in the project directory
+
+```sh
+make install
 ```
 
 ## Usage
 
-TODO
+Just run quiz in terminal
 
 ## Building
 
-TODO
+```sh
+make install
+```
 
 ### Tests
 
-TODO
+```sh
+make test
+```
 
 ## Meta
 
