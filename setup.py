@@ -9,7 +9,7 @@ setup(
     packages = ["quiz"],
     entry_points = {
         'console_scripts': [
-            'quiz = quiz.main:run'
+            'quiz = quiz.__main__:main'
         ]
     },
     package_data = {

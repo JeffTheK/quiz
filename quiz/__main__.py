@@ -12,7 +12,7 @@ def load_questions():
     file.close()
     return questions
     
-def run():
+def main():
     questions = load_questions()
     question = questions[random.randint(0, len(questions) - 1)]
     print(question["question_text"])
@@ -30,3 +30,6 @@ def run():
         print(f"{Fore.RED}wrong!{Style.RESET_ALL}")
     else:
         print(f"{Fore.RED}bad number{Style.RESET_ALL}")
+
+if __name__ == "__main__":
+    main()
