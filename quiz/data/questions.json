@@ -37,5 +37,23 @@
             "Montana",
             "Arizona"
         ]
+    },
+    {
+        "question_text": "What year did the Titanic sink in the Atlantic Ocean on 15 April, on its maiden voyage from Southampton?",
+        "answer": "1912",
+        "options": [
+            "1913",
+            "1911",
+            "1906"
+        ]
+    },
+    {
+        "question_text": "What is the name of the biggest technology company in South Korea?",
+        "answer": "Samsung",
+        "options": [
+            "Xiaomi",
+            "LG",
+            "Huawei"
+        ]
     }
 ]
